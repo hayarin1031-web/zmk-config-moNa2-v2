@@ -36,11 +36,11 @@ layers:
   - /
   - LCTRL
   - LEFT WIN
-  - F16
+  - LEFT ALT
   - BACKSPACE
-  - {t: ENTER, h: '2'}
+  - {t: BSPC, h: '2'}
   - {t: '&to_layer_0 F14', h: '3'}
-  - {t: '&to_layer_0 F16', h: '3'}
+  - {t: '&to_layer_0 ENTER', h: '3'}
   - {t: SPACE, h: '1'}
   - LEFT ALT
   '1':
@@ -73,8 +73,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '{'
+  - '}'
   - {t: ▽, type: trans}
   - '|'
   - {t: ▽, type: trans}
