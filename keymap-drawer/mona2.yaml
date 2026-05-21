@@ -39,8 +39,8 @@ layers:
   - F16
   - BACKSPACE
   - {t: ENTER, h: '2'}
-  - {t: '&to_layer_0 LANG5', h: '3'}
-  - {t: '&to_layer_0 LANG1', h: '3'}
+  - {t: '&to_layer_0 F14', h: '3'}
+  - {t: '&to_layer_0 F16', h: '3'}
   - {t: SPACE, h: '1'}
   - LEFT ALT
   '1':
