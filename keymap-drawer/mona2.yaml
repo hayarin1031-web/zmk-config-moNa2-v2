@@ -171,7 +171,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&tog_ls_on'
   bluetooth:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
