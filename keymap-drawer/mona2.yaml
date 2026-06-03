@@ -163,7 +163,7 @@ layers:
   - PAGE UP
   - PAGE DOWN
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - A
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
