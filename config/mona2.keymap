@@ -70,6 +70,13 @@
 
             tap-ms = <20>;
         };
+
+        // Override the existing &kp behavior to use our custom implementation
+        kp2: key_press {
+            compatible = "zmk,behavior-layout-shift-key-press";
+            #binding-cells = <1>;
+            label = "LAYOUT_SHIFT_KEY_PRESS";
+        };
     };
 
     keymap {
