@@ -21,7 +21,7 @@ layers:
   - J
   - K
   - L
-  - '&klps SEMICOLON'
+  - ;
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -33,7 +33,7 @@ layers:
   - M
   - ','
   - .
-  - '&klps SLASH'
+  - /
   - LCTRL
   - LEFT WIN
   - LEFT ALT
@@ -93,10 +93,10 @@ layers:
   - $
   - '&'
   - '['
-  - '&klps LEFT_BRACKET'
-  - '&klps RIGHT_BRACKET'
-  - '&klps MINUS'
-  - '&klps TILDE'
+  - '['
+  - ']'
+  - '-'
+  - '~'
   - TAB
   - '"'
   - ''''
@@ -104,9 +104,9 @@ layers:
   - '?'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&klps LEFT_BRACE'
-  - '&klps RIGHT_BRACE'
-  - '&klps AT_SIGN'
+  - '{'
+  - '}'
+  - '@'
   - ;
   - LEFT SHIFT
   - {t: ▽, type: trans}
@@ -116,9 +116,9 @@ layers:
   - {t: ▽, type: trans}
   - F12
   - F6
-  - '&klps LEFT_PARENTHESIS'
-  - '&klps RIGHT_PARENTHESIS'
-  - '&klps BACKSLASH'
+  - (
+  - )
+  - \
   - ':'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
