@@ -42,7 +42,7 @@ layers:
   - {t: '&to_layer_0 LANG1', h: arrow}
   - BACKSPACE
   - {t: ENTER, h: number}
-  - LEFT ALT
+  - A
   number:
   - ESCAPE
   - F1
