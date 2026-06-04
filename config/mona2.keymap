@@ -116,7 +116,7 @@
 &kp ESCAPE  &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &trans                                     &trans  &kp HOME        &kp UP_ARROW    &kp END          &trans
 &trans      &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))            &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
 &trans      &kp LEFT_SHIFT      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &trans    &trans  &trans  &kp DELETE      &kp PAGE_UP     &kp PAGE_DOWN    &trans
-&tog 7      &trans              &trans                  &trans                   &trans                   &trans    &trans  &trans                                                   &tog_ls_on
+&to 7       &trans              &trans                  &trans                   &trans                   &trans    &trans  &trans                                                   &tog_ls_on
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
@@ -157,10 +157,10 @@
 
         game {
             bindings = <
-&kp ESCAPE  &trans  &kp W   &kp E  &kp R                       &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE  &kp Q   &kp W   &kp E  &kp R                       &trans  &trans  &trans  &trans  &trans
 &kp LSHFT   &kp A   &kp S   &kp D  &kp F               &trans  &trans  &trans  &trans  &trans  &trans
-&kp LSHFT   &trans  &trans  &kp C  &kp V      &kp B    &trans  &trans  &trans  &trans  &trans  &trans
-&kp LCTRL   &trans  &tog 0  &kp N  &kp SPACE  &kp M    &trans  &trans                          &trans
+&trans      &trans  &trans  &kp C  &kp V      &kp B    &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL   &trans  &to 0   &kp N  &kp SPACE  &kp M    &trans  &trans                          &trans
             >;
         };
     };
