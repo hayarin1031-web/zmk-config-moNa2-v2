@@ -303,7 +303,7 @@ layers:
   - {t: ▽, type: trans}
   game:
   - ESCAPE
-  - {t: ▽, type: trans}
+  - Q
   - W
   - E
   - R
@@ -323,7 +323,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LSHFT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - C
